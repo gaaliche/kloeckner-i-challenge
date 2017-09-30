@@ -2,7 +2,9 @@ var HomePageObject = require("./page-objects/HomePageObject.js")
 var LoginPageObject = require("./page-objects/LoginPageObject.js")
 var BoardPageObject = require("./page-objects/BoardPageObject.js")
 describe('kloeckner-i QA Challenge', function(){
-
+    var home;
+    var login;
+    var board;
     beforeAll(function () {
         home = new HomePageObject();
         login = new LoginPageObject();
@@ -15,12 +17,17 @@ describe('kloeckner-i QA Challenge', function(){
     });
 
     it('User can create a list', function () {
-
+        board.addList()
+        board.checkListAdded()
     });
 
 
     it('User can modify a card details', function() {
 
     });
+
+    afterAll(function () {
+        
+    })
 
 });

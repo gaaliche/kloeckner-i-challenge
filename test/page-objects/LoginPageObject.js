@@ -16,7 +16,7 @@ var LoginPage = (function() {
         }
         this.checkelements = function () {
         	browser.url(url)
-        	// return browser
+        	browser.windowHandleMaximize()
             browser.waitForVisible(user, 5000)
             browser.waitForVisible(password, 5000)
             browser.waitForVisible(loginButton, 5000)
