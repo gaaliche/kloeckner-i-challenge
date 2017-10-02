@@ -14,7 +14,8 @@ Please create a test account on https://trello.com and a board. Go to this board
 # Installation
 - git clone git @https://github.com/gaaliche/kloeckner-i-challenge.git
 - `cd kloeckner-i-challenge`
-- install node
+- install node v4.2.6
+-`source env.sh`
 - `npm install`
 
 # Start the e2e tests
