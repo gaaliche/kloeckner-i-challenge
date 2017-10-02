@@ -14,7 +14,7 @@ Please create a test account on https://trello.com and a board. Go to this board
 # Installation
 - git clone git @https://github.com/gaaliche/kloeckner-i-challenge.git
 - `cd kloeckner-i-challenge`
-- install node v4.2.6
+- install node v4.2.6 (or any higher version)
 - `source env.sh`
 - `npm install`
 
