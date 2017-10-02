@@ -10,3 +10,16 @@ Please create a test account on https://trello.com and a board. Go to this board
 3. Build a testing script in a language/framework of your choice for two of these test cases
 4. Provide the scripts as a repository bundle, including a documentation on how to set them up locally and execute them
 5. Provide test case documentation and describe your process (as a list of steps) shortly
+
+# Installation
+- git clone git @https://github.com/gaaliche/kloeckner-i-challenge.git
+- `cd kloeckner-i-challenge`
+- install node
+- `npm install`
+
+# Start the e2e tests
+- In file "wdio.conf.js" select the desired browser : `browserName: 'firefox'` or `browserName: 'chrome'`
+- `npm run e2e`.
+
+# Note
+- Used language/framework : JS/WebdriverIO-Jasmine
