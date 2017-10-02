@@ -24,3 +24,4 @@ Please create a test account on https://trello.com and a board. Go to this board
 
 # Note
 - Used language/framework : JS/WebdriverIO-Jasmine
+- Functionalities and test cases can be found in https://docs.google.com/spreadsheets/d/1N5e53xo8XxJbQFk_m1Lw3hy0J2pPnUOskYzZqqNlxQY
