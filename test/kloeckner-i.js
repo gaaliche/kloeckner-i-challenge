@@ -6,9 +6,9 @@ describe('kloeckner-i QA Challenge', function(){
     var login;
     var board;
     beforeAll(function () {
-        home = new HomePageObject();
-        login = new LoginPageObject();
-        board = new BoardPageObject();
+        home = new HomePageObject()
+        login = new LoginPageObject()
+        board = new BoardPageObject()
         login.checkelements()
         login.userLogin()
         home.checkelements()
@@ -23,11 +23,14 @@ describe('kloeckner-i QA Challenge', function(){
 
 
     it('User can modify a card details', function() {
-
+        board.addCard()
+        board.checkCardAdded()
+        board.openCardDetails()
+        board.modifyCardDetails()
     });
 
     afterAll(function () {
-        
+        board.archiveList()
     })
 
 });
